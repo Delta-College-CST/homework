@@ -6,14 +6,14 @@ public class ValidSerial
    public static void main(String[] args)
    {
       
-      System.out.println( isSerialValid("AB123") );
-      System.out.println( isSerialValid("Ax123") );
-      System.out.println( isSerialValid("XY123") );
+      System.out.println( isSerialValid("AB127") );
+      System.out.println( isSerialValid("Ax125") );
+      System.out.println( isSerialValid("$X724") );
       System.out.println( isSerialValid("AB12") );
       System.out.println( isSerialValid("ABC1234") );
-      System.out.println( isSerialValid("BA143") );
+      System.out.println( isSerialValid("BA123") );
       System.out.println( isSerialValid("BA12X") );
-      System.out.println( isSerialValid("BC12X") );
+      System.out.println( isSerialValid("BA124") );
       
    }
    
